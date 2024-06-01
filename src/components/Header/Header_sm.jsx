@@ -4,19 +4,22 @@ import logo from "../../../public/Logo.png";
 import { useToggle } from "../../hook/useToggle";
 
 const HeaderSm = () => {
-  const { menu, cart, person } = allIcons;
+  const { menu, cart, person, cross } = allIcons;
   const [isOpen, _, Toggle] = useToggle();
-  
-  return (
-    <main className="lg:hidden flex items-center justify-between relative my-4 mx-6">
 
-        {/* Menu and toggle section */}
+  return (
+    <main className="lg:hidden z-20  flex items-center justify-between relative my-4 mx-6">
+      {/* Menu and toggle section */}
       <section className="relative">
         <div onClick={Toggle} className="text-textH1 text-4xl">
-          {menu}
+          {isOpen ? cross : menu}
         </div>
         {isOpen && (
-          <section className="absolute  font-semibold w-52 bg-crm1 p-4 ">
+          <section
+            className={`fixed left-0 transform ${
+              isOpen ? "translate-x-0" : "-translate-x-full"
+            } transition-transform duration-1000 ease-out font-semibold w-52 bg-crm1 p-4 mt-4 `}
+          >
             <ul className="flex flex-col items-center text-textH1 gap-3">
               <li>Home</li>
               <li>About</li>
@@ -34,6 +37,7 @@ const HeaderSm = () => {
         <img src={logo} alt="" srcset="" className="h-[28px]" />
       </section>
 
+      {/* Cart and Person  */}
       <section className="flex items-center gap-5 text-textH1">
         <div>{cart}</div>
         <div>{person}</div>
