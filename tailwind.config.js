@@ -9,7 +9,8 @@ export default {
       colors: {
         text1: '#FFFFFF',
         textH1: '#383838',
-        crm1: '#FED29C'
+        crm1: '#FED29C',
+        gr1: '#EAEAEA',
       }
     },
   },
