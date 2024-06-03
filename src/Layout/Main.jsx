@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import HeaderSm from "../components/Header/Header_sm";
 import Hero from "../components/Hero/Hero";
+import Bottomhero from "../components/Hero/Bottom_hero";
 
 const Main = () => {
   return (
@@ -13,8 +14,11 @@ const Main = () => {
       </section>
 
       {/* Body Section */}
-      <section>
+      <section >
         <Hero />
+        <div className="flex justify-center">
+        <Bottomhero />
+        </div>
       </section>
     </div>
   );
