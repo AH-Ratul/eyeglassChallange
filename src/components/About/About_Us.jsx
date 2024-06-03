@@ -3,7 +3,7 @@ import img6 from "../../assets/Image (6).png";
 
 const About_Us = () => {
   return (
-    <main className="absolute flex flex-col-reverse lg:flex-row top-[1670px] lg:top-[1900px] text-textH1">
+    <main className="absolute flex flex-col-reverse lg:flex-row top-[1770px] sm:top-[2000px] lg:top-[1900px] text-textH1">
       <div className="bg-crm1 p-9 lg:p-40">
         <div className=" ">
           <h1 className="font-bold text-2xl lg:text-3xl mb-6">
