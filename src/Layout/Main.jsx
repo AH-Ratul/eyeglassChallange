@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import HeaderSm from "../components/Header/Header_sm";
 import Hero from "../components/Hero/Hero";
 import Bottomhero from "../components/Hero/Bottom_hero";
+import Banner from "../components/Banner/Banner";
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
         <div className="flex justify-center">
         <Bottomhero />
         </div>
+        <Banner />
       </section>
     </div>
   );
