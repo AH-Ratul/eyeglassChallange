@@ -18,7 +18,7 @@ const HeaderSm = () => {
           <section
             className={`fixed left-0 transform ${
               isOpen ? "translate-x-0" : "-translate-x-full"
-            } transition-transform duration-1000 ease-out font-semibold w-52 bg-crm1 p-4 mt-4 `}
+            } transition-transform duration-5000 ease-in-out font-semibold w-52 bg-crm1 p-4 mt-4 `}
           >
             <ul className="flex flex-col items-center text-textH1 gap-3">
               <li>Home</li>
