@@ -1,0 +1,8 @@
+.swiper-pagination-bullet {
+    background-color: rgb(0, 0, 0); /* Custom color */
+    
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #FED29C; /* Custom active color */
+  }
