@@ -4,7 +4,7 @@ import { allIcons } from "../../data/All-Icons";
 const Bottomhero = () => {
   const { search, glasses, truck, payment } = allIcons;
   return (
-    <main className="absolute top-[240px] lg:top-[580px] z-20 flex items-center gap-[20px] lg:gap-[30px]">
+    <main className="absolute top-[245px] sm:top-[450px] lg:top-[580px] z-20 flex items-center gap-[20px] lg:gap-[30px]">
       {/* Search section */}
       <section className="flex flex-col items-center justify-center">
         <div className="h-[50px] w-[50px] lg:h-[100px] lg:w-[100px] bg-crm1 rounded-full flex justify-center items-center text-textH1 text-xl lg:text-2xl">
