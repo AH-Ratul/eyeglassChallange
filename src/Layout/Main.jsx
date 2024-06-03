@@ -4,6 +4,7 @@ import HeaderSm from "../components/Header/Header_sm";
 import Hero from "../components/Hero/Hero";
 import Bottomhero from "../components/Hero/Bottom_hero";
 import Banner from "../components/Banner/Banner";
+import About_Us from "../components/About/About_Us";
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
         <Bottomhero />
         </div>
         <Banner />
+        <About_Us />
       </section>
     </div>
   );
