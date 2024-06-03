@@ -11,6 +11,8 @@ export default {
         textH1: '#383838',
         crm1: '#FED29C',
         gr1: '#EAEAEA',
+        gr2: '#545454',
+        gr3: '#F7F7F7'
       }
     },
   },
