@@ -4,13 +4,13 @@ import ProductCard from "../Cards/ProductCard/ProductCard";
 
 const Products = () => {
   const data = products;
-  console.log(data);
+  //
   return (
     <main className="absolute top-[2600px] sm:top-[2900px] lg:top-[2650px] ">
-      <section className="flex flex-col justify-center items-center lg:flex-row text-textH1 px-9">
+      <section className="flex flex-col justify-center items-center lg:flex-row text-textH1 px-4">
         <div className="flex flex-col justify-center items-center">
           <h1 className="font-bold text-2xl mb-6">Our Products</h1>
-          <p>
+          <p className="text-center">
             Experience crystal clear vision and elevated style with our premium
             collection of eyeglasses.
           </p>
