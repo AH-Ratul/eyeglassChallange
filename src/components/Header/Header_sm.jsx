@@ -8,7 +8,7 @@ const HeaderSm = () => {
   const [isOpen, _, Toggle] = useToggle();
 
   return (
-    <main className="lg:hidden z-20  flex items-center justify-between relative my-4 mx-6">
+    <main className="lg:hidden z-30  flex items-center justify-between relative my-4 mx-6">
       {/* Menu and toggle section */}
       <section className="relative">
         <div onClick={Toggle} className="text-textH1 text-4xl">
@@ -16,9 +16,9 @@ const HeaderSm = () => {
         </div>
         {isOpen && (
           <section
-            className={`fixed left-0 transform ${
+            className={`fixed left-0  transform ${
               isOpen ? "translate-x-0" : "-translate-x-full"
-            } transition-transform duration-5000 ease-in-out font-semibold w-52 bg-crm1 p-4 mt-4 `}
+            } transition-transform duration-300 ease-in-out font-semibold w-52 bg-crm1 p-4 mt-4 `}
           >
             <ul className="flex flex-col items-center text-textH1 gap-3">
               <li>Home</li>
