@@ -19,10 +19,10 @@ const Main = () => {
       </section>
 
       {/* Body Section */}
-      <section >
+      <section>
         <Hero />
         <div className="flex justify-center">
-        <Bottomhero />
+          <Bottomhero />
         </div>
         <Banner />
         <About_Us />
