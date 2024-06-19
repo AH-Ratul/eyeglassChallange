@@ -6,6 +6,8 @@ import Bottomhero from "../components/Hero/Bottom_hero";
 import Banner from "../components/Banner/Banner";
 import About_Us from "../components/About/About_Us";
 import Products from "../components/Products/Products";
+import Footer from "../components/Footer/Footer";
+import Footer_sm from "../components/Footer/Footer_sm";
 
 const Main = () => {
   return (
@@ -25,6 +27,12 @@ const Main = () => {
         <Banner />
         <About_Us />
         <Products />
+      </section>
+
+      {/* Footer Section */}
+      <section>
+        <Footer />
+        <Footer_sm />
       </section>
     </div>
   );
