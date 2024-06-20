@@ -20,7 +20,7 @@ const Footer_sm = () => {
                 <div className='mt-8 text-textH1 flex gap-[17px] justify-center items-center'>
                     {/* support */}
                     <div>
-                        <h1 className='font-bold text-lg mb-5'>Support</h1>
+                        <h1 className='font-bold mb-5'>Support</h1>
                         <ul className='text-xs flex flex-col gap-2'>
                             <li>Privacy Policy</li>
                             <li>Terms & Conditions</li>
@@ -32,7 +32,7 @@ const Footer_sm = () => {
 
                     {/* quick links */}
                     <div>
-                    <h1 className='font-bold text-lg mb-5'>Quick Links</h1>
+                    <h1 className='font-bold mb-5'>Quick Links</h1>
                     <ul className='text-xs flex flex-col gap-2'>
                             <li>About Us</li>
                             <li>Blog Post</li>
@@ -44,7 +44,7 @@ const Footer_sm = () => {
 
                     {/* community */}
                     <div>
-                    <h1 className='font-bold text-lg mb-5'>Community</h1>
+                    <h1 className='font-bold mb-5'>Community</h1>
                     <ul className='text-xs flex flex-col gap-2'>
                             <li>Become an Affliate</li>
                             <li>Help Center</li>
