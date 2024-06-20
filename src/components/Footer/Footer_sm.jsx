@@ -63,7 +63,7 @@ const Footer_sm = () => {
                     <p>Copyright © 2023 All rights reserved by Eyeglass</p>
                     <div className='flex items-center gap-8'>
                         <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Sevice</a>
+                        <a href="#">Terms of Service</a>
                     </div>
                 </div>
             </section>
