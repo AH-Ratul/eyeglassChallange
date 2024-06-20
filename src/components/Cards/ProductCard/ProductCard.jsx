@@ -40,7 +40,7 @@ const ProductCard = ({ item }) => {
             slidesPerView={1}
             spaceBetween={30}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 2000, disableOnInteraction: false }}
+            autoplay={{ delay: 1000, disableOnInteraction: false }}
             modules={[Pagination, Autoplay]}
             className="h-full w-full cursor-pointer"
           >
