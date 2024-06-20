@@ -5,7 +5,7 @@ import logo from "../../../public/Logo.png";
 const Footer = () => {
   const { instagram, linkedin, twitter } = allIcons;
   return (
-    <main className="hidden md:block absolute top-[4000px]">
+    <footer className="hidden md:block absolute top-[4000px]">
       {/* footer elements */}
       <seciton className="flex justify-center items-center gap-44">
         <div>
@@ -78,8 +78,8 @@ const Footer = () => {
 
       {/* copyright section */}
       <seciton>
-        <div className="border-b my-6 border-b-crm1"></div>
-        <div className="text-xs text-textH1 flex  gap-2 justify-between my-8 items-center">
+        <div className="border-b my-6 border-b-crm1 opacity-[50%] "></div>
+        <div className="text-xs text-textH1 flex justify-between my-8 items-center">
           <p>Copyright © 2023 All rights reserved by Eyeglass</p>
           <div className="flex items-center gap-12">
             <a href="#">Privacy Policy</a>
@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
         </div>
       </seciton>
-    </main>
+    </footer>
   );
 };
 
