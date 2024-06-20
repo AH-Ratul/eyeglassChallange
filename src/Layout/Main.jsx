@@ -15,6 +15,7 @@ const Main = () => {
       {/* Header section */}
       <section>
         <Header />
+        {/* responsive header */}
         <HeaderSm />
       </section>
 
@@ -31,7 +32,10 @@ const Main = () => {
 
       {/* Footer Section */}
       <section>
-        <Footer />
+        <div className="flex justify-center">
+          <Footer />
+        </div>
+        {/* responsive footer */}
         <Footer_sm />
       </section>
     </div>
